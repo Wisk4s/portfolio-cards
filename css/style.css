@@ -81,3 +81,36 @@ p {
         width: 93%;
     }
 }
+
+.navbar {
+    background-color: #1f1f39;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center; /* Centralizar verticalmente */
+    justify-content: space-between; /* Espaço entre logo e links */
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.logo-img {
+    margin-left: 30px;
+    max-width: 20%; /* A logo se ajustará automaticamente ao tamanho do contêiner pai */
+    height: auto;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
