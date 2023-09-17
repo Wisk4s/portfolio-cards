@@ -66,3 +66,18 @@ p {
 .nomedomano {
     text-align: center;
 }
+
+
+@media screen and (max-width: 768px) {
+    .card1 {
+        width: 100%; /* Cards ocupam 100% da largura em telas pequenas */
+    }
+
+    .container {
+        padding: 10px; /* Espaçamento menor em telas pequenas */
+    }
+
+    .jake {
+        width: 93%;
+    }
+}
